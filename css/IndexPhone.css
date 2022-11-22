@@ -1,0 +1,101 @@
+* { margin:0; padding:0; color:rgb(230,230,230);
+	-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;
+	font-family:'Manrope',sans-serif; font-size:1em; }
+
+a { text-decoration:none; font-family:'Manrope',sans-serif; }
+
+html { width:100%; height:100%; }
+
+body { width:100%; height:100%; background-color:rgb(48,48,48); }
+
+
+/*----------MENU----------*/
+.menu { width:100%; height:11%; position:fixed; z-index:100; bottom:0; 
+	border-top:1px solid rgb(64,64,64); background-color:rgb(48,48,48);
+	display:flex; align-items:center; justify-content:center; }
+
+.menu nav { width:100%; display:flex; align-items:center; }
+
+.menu nav ul { flex:1; margin:0 4%; 
+	display:flex; justify-content:space-around; align-items:flex-end; }
+.menu nav ul li { display:inline-block; }
+.menu nav ul li a img { display:block; width:2.2em; height:2.2em; margin-bottom:6%; }
+#beer { width:2.4em; height:2.4em; margin-bottom:2%; }
+
+
+/*----------HEADER----------*/
+.contTop { width:100%; height:2.2em; position:absolute; bottom:12%; }
+
+#top { width:100%; height:100%; display:block; margin:0 auto; }
+
+#top img { height:100%; display:block; margin:0 auto; filter:invert(25%);
+	-webkit-animation:flecha 2s infinite; -moz-animation:flecha 2s infinite; animation:flecha 2s infinite; }
+
+@-webkit-keyframes flecha {
+	0% {margin-top:0%; opacity:1;}
+	33% {margin-top:-2%; opacity:1;}
+	100% {margin-top:0%; opacity:1;} }
+
+@-moz-keyframes flecha {
+	0% {margin-top:0%; opacity:1;}
+	33% {margin-top:-2%; opacity:1;}
+	100% {margin-top:0%; opacity:1;} }
+
+@keyframes flecha {
+	0% {margin-top:0%; opacity:1;}
+	33% {margin-top:-2%; opacity:1;}
+	100% {margin-top:0%; opacity:1;} }
+
+
+header { width:100%; height:200%; 
+	background-image:url(../img/JB_rearside.webp); 
+	background-size:90% auto;
+	background-position:200% 75%; 
+	background-repeat:no-repeat;
+	background-attachment:fixed; }
+
+
+
+header .intro { width:100%; height:43%; }
+
+header .introtxt { position:absolute; top:10%; z-index:1; width:100%; padding:0 10%; }
+
+header .introtxt h2 { font-size:1.8em; font-family:'Yeseva One',cursive;
+	text-align:center; width:100%; letter-spacing:.1em; }
+header .introtxt p { font-size:1.1em; text-align:center; width:; letter-spacing:.04em; }
+header .introtxt span p { font-size:.75em; color:rgb(169,169,169); text-align:left; }
+header .introtxt span p b { color:rgb(169,169,169); }
+
+
+
+header .inicio { width:100%; height:57%; text-align:center; 
+	background-color:rgb(64,64,64); border-radius:2em 2em 0 0; padding:8% 10% 0 10%; }
+
+header .inicio h2 { font-size:1.8em; font-family:'Yeseva One',cursive;
+	text-align:center; width:; letter-spacing:.1em; }
+
+header .whatsapp { margin-top:2em; }
+
+header .whatsapp h1 { width:100%; text-align:center; 
+	font-size:1.8em; font-weight:bold; letter-spacing:.05em; 
+	background-color:rgb(230,230,230); border:; border-radius:2em; padding:.5em 0; }
+header .whatsapp h1 a { color:rgb(48,48,48); }
+
+header .inicio .whatsapp p { font-size:1.1em; text-align:center; width:; letter-spacing:.04em; }
+header .inicio .whatsapp span p { font-size:.75em; color:rgb(169,169,169); text-align:center; }
+header .inicio .whatsapp span p b { color:rgb(169,169,169); }
+
+
+header .inicio hr { border:0px solid rgb(250,250,250); margin-bottom:1em; opacity:0; }
+
+
+/*----------FOOTER----------*/
+footer { width:100%; height:85%; background-color:rgb(0,0,0); display:flex; 
+	justify-content:center; align-items:center; }
+footer article { text-align:center; padding:0 5%; }
+footer article span { font-size:1.1em; color:rgb(160,160,160); }
+footer article p { font-size:1.1em; line-height:1.4em; }
+footer article a { font-weight:bold; font-size:1.1em }
+footer article hr { border:0px solid rgb(248,248,248); margin-bottom:1em; opacity:0; }
+
+.avisoPhoneHor { display:none; }

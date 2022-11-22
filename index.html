@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<meta charset="UTF-8">
+	<title>La Jeep Ride | Solicítala</title>
+	<meta name="author" content="Daniel Sesergio Gutierrez Cornelio">
+	<meta name="description" content="Escríbeme para solicitar un viaje">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" media="(orientation:portrait) and (min-width:375px) and (max-width:767px)" href="css/IndexPhone.css"/>
+	<link rel="stylesheet" type="text/css" media="(orientation:portrait) and (min-width:768px)" href="css/IndexTab.css"/>
+	<link rel="stylesheet" type="text/css" media="(orientation:portrait) and (max-width:374px)" href="css/IndexPhoneSmall.css"/>
+	<link rel="stylesheet" type="text/css" media="(orientation:landscape) and (max-width:1023px)" href="css/indexPhoneH.css"/>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<section class="menu">
+		<nav>
+			<ul>
+				<li><a id="m_regalos" href="#mesaR" target="_self"><img src="img/icon_home.png"></a></li>
+				<li><a id="m_reunion" href="ubicacion.html" target="_self"><img src="img/icon_payment.png" id="beer"></a></li>
+				<li><a id="m_info" href="info.html" target="_self"><img src="img/icon_info.png"></a></li>
+			</ul>
+		</nav>
+	</section>
+
+	<header id="Bienvenido">
+
+		<div class="contTop" id="btnTop">
+			<a id="top" href="#inicio" target="_self" value="Ocultar" onclick="ocultar('btnTop')"><img src="img/arrow_up.png"></a>
+		</div>
+		
+		<div class="intro">
+			<article class="introtxt">
+				<h2>Bienvenido</h2>
+				<p>a mi servicio de viajes</p>
+				<br>
+				<span>
+					<p>por el momento sólo estoy disponible</p>
+					<p><b>Lunes</b> a <b>Viernes</b>, desde las <b>19</b>hrs a <b>23</b>hrs del día</p>
+					<p><b>Sábados</b>, desde las <b>17</b>hrs del día</p>
+					<p><b>Domingos</b>, desde las <b>9</b>hrs del día</p>
+				</span>
+			</article>
+		</div>
+		
+		<div id="inicio" class="inicio">
+			<h2>Solicita</h2>
+				<article class="whatsapp">
+					<p>Escríbeme en Whatsapp</p>
+					<br>
+					<h1><a id="num" href="tel:9932528865" target="_blank" rel="noopener">993 252 88 65</a></h1>
+					<br>
+					<span>
+					<p>Puedes escribirme en cualquier momento, para agendar una viaje o cotizarlo</p>
+				</span>
+				</article>
+		</div>
+	</header>
+
+	<footer>
+		<article>
+			<p>Si llegaste hasta aquí es por chismoso o codo.</p>
+			<span>(jajaja, no es cierto)</span>
+			<hr>
+			<p>No es necesario que regales algo de esta lista.</p>
+			<p>Puedes regalar Efectivo.</p>
+			<p>Lo que nazca de tu bolsillo.</p>
+			<p>Será mejor aprovechado que un regalo que no me guste o no me quede.</p>
+			<span>XD</span>
+		</article>
+	</footer>
+
+	<script type="text/javascript">
+		function ocultar(id){
+			var elemento = document.getElementById(id);
+			elemento.style.display = "none";
+		}
+	</script>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/desplazo.js"></script>
+
+	<div class="avisoPhoneHor">
+		<div class="avisotxt">
+			<p>POSICIONA</p>
+			<p>TU DISPOSITIVO</p>
+			<p>VERTICALMENTE</p>
+			<p>PARA UNA MEJOR</p>
+			<p>EXPERIENCIA</p>
+		</div>
+	</div>
+
+</body>
+</html>

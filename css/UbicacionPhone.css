@@ -1,0 +1,56 @@
+* { margin:0; padding:0; color:rgb(40,40,40);
+	-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;
+	font-family:'Montserrat',sans-serif; font-size:1em; }
+
+a { text-decoration:none; }
+
+html { width:100%; height:100%; }
+
+body { width:100%; height:100%; background-color:rgb(250,250,250); }
+
+
+/*----------MENU----------*/
+.menu { width:100%; height:10%; position:fixed; z-index:100; bottom:0; 
+	border-top:1px solid rgb(40,40,40); background-color:rgb(248,248,248);
+	display:flex; align-items:center; justify-content:center; }
+
+.menu nav { width:100%; display:flex; align-items:center; }
+
+.menu nav h1 { margin:0 0 0 5%; }
+.menu nav h1 a em { font-family:'Permanent Marker',cursive; font-size:2em; line-height:1; }
+.menu nav h1 a p { font-family:'Permanent Marker',cursive; color:rgb(139,69,19); }
+
+.menu nav ul { display:inline-block; flex:1; margin:0 4%; 
+	display:flex; justify-content:space-around; align-items:flex-end; }
+.menu nav ul li { display:inline-block; }
+.menu nav ul li a img { display:block; width:2.2em; height:2.2em; margin-bottom:6%; }
+#beer { display:block; width:2.8em; height:2.8em; margin-bottom:0 }
+
+
+/*----------HEADER----------*/
+header { width:100%; }
+
+header .fotografia { width:100%; height:; }
+header .fotografia img { width:100%; }
+
+header article { width:100%; height:; text-align:center; 
+	background-color:rgb(250,250,250); padding:10% 5% 15% 5%; }
+header article h2 { font-size:2.4em; font-family:'Permanent Marker',cursive; margin-bottom:1em; }
+header article span { font-size:1.1em; color:rgb(169,169,169); }
+header article p { font-size:1.1em; line-height:1.4em; }
+header article a { font-weight:bold; font-size:1.2em; }
+header article hr { border:0px solid rgb(250,250,250); margin-bottom:1em; opacity:0; }
+
+
+/*----------REGALOS----------*/
+iframe { width:100%;  }
+
+
+
+
+footer { width:100%; height:20%; }
+footer article { text-align:center; padding:0 5%; }
+footer article span { font-size:1.1em; color:rgb(160,160,160); }
+footer article p { font-size:1.1em; line-height:1.4em; }
+footer article a { font-weight:bold; font-size:1.1em }
+footer article hr { border:0px solid rgb(248,248,248); margin-bottom:1em; opacity:0; }
