@@ -47,13 +47,7 @@ body { width:100%; height:100%; background-color:rgb(48,48,48); }
 	100% {margin-top:0%; opacity:1;} }
 
 
-header { width:100%; height:200%; 
-	background-image:url(../img/JB_rearside.png); 
-	background-size:90% auto;
-	background-position:200% 75%; 
-	background-repeat:no-repeat;
-	background-attachment:fixed; }
-
+header { width:100%; height:200%; }
 
 
 header .intro { width:100%; height:43%; }
@@ -66,9 +60,11 @@ header .introtxt p { font-size:1.1em; text-align:center; width:; letter-spacing:
 header .introtxt span p { font-size:.75em; color:rgb(169,169,169); text-align:left; }
 header .introtxt span p b { color:rgb(169,169,169); }
 
+#JeepRear { position:fixed; left:20%; bottom:15%; z-index:1; width:100%; }
 
 
-header .inicio { width:100%; height:57%; text-align:center; 
+
+header .inicio { width:100%; height:114%; text-align:center; position:absolute; z-index:10;
 	background-color:rgb(64,64,64); border-radius:2em 2em 0 0; padding:8% 10% 0 10%; }
 
 header .inicio h2 { font-size:1.8em; font-family:'Yeseva One',cursive;
@@ -91,7 +87,7 @@ header .inicio hr { border:0px solid rgb(250,250,250); margin-bottom:1em; opacit
 
 /*----------FOOTER----------*/
 footer { width:100%; height:85%; background-color:rgb(0,0,0); display:flex; 
-	justify-content:center; align-items:center; }
+	justify-content:center; align-items:center; position:absolute; z-index:10; }
 footer article { text-align:center; padding:0 5%; }
 footer article span { font-size:1.1em; color:rgb(160,160,160); }
 footer article p { font-size:1.1em; line-height:1.4em; }
