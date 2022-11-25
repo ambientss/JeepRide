@@ -65,14 +65,14 @@ header .introtxt span p b { color:rgb(169,169,169); }
 
 
 header .inicio { width:100%; height:114%; text-align:center; position:absolute; z-index:10;
-	background-color:rgb(64,64,64); border-radius:2em 2em 0 0; padding:8% 10% 0 10%; }
+	background-color:rgb(64,64,64); border-radius:2em 2em 0 0; padding:8% 6% 0 6%; }
 
 header .inicio h2 { font-size:2.2em; font-family:'Yeseva One',cursive;
 	text-align:center; width:; letter-spacing:.06em; }
 
 header .whatsapp { margin-top:2em; }
 
-header .whatsapp h1 { width:100%; text-align:center; 
+header .whatsapp h1 { width:90%; text-align:center; margin:0 auto; 
 	font-size:2em; font-weight:bold; letter-spacing:.02em; 
 	background-color:rgb(230,230,230); border:; border-radius:2em; padding:.5em 0; }
 header .whatsapp h1 a { color:rgb(48,48,48); }
