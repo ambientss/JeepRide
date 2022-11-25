@@ -55,8 +55,8 @@ footer { display:none; }
 
 /*AVISO HORIZONTAL*/
 
-.avisoPhoneHor { width:100%; height:100%; padding:10vh 0 0 10vw; 
+.avisoPhoneHor { width:100%; height:100%;  
 	background:url(../img/backgroundH.png); background-size:cover;
 	background-position:right bottom; background-repeat:no-repeat; }
 
-.avisotxt { color:rgb(200,200,200); font-weight:bold; font-size:2.4em; }
+.avisotxt { color:rgb(200,200,200); font-weight:bold; font-size:2.2em; padding:10vh 0 0 10vw; }
