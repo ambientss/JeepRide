@@ -6,12 +6,12 @@ a { text-decoration:none; font-family:'Manrope',sans-serif; }
 
 html { width:100%; height:100%; }
 
-body { width:100%; height:100%; background-color:rgb(48,48,48); }
+body { width:100%; height:100%; background-color:rgb(32,32,32); }
 
 
 /*----------MENU----------*/
 .menu { width:100%; height:11%; position:fixed; z-index:100; bottom:0; 
-	border-top:1px solid rgb(64,64,64); background-color:rgb(48,48,48);
+	border-top:1px solid rgb(64,64,64); background-color:rgb(32,32,32);
 	display:flex; align-items:center; justify-content:center; }
 
 .menu nav { width:100%; display:flex; align-items:center; }
@@ -19,8 +19,8 @@ body { width:100%; height:100%; background-color:rgb(48,48,48); }
 .menu nav ul { flex:1; margin:0 4%; 
 	display:flex; justify-content:space-around; align-items:flex-end; }
 .menu nav ul li { display:inline-block; }
-.menu nav ul li a img { display:block; width:2.2em; height:2.2em; margin-bottom:6%; }
-#beer { width:2.4em; height:2.4em; margin-bottom:2%; }
+.menu nav ul li a img { display:block; width:2.2em; height:2.2em; margin-bottom:10%; }
+#beer { width:2.4em; height:2.4em; margin-bottom:5%; }
 
 
 /*----------HEADER----------*/
@@ -65,7 +65,7 @@ header .introtxt span p b { color:rgb(169,169,169); }
 
 
 header .inicio { width:100%; height:114%; text-align:center; position:absolute; z-index:10;
-	background-color:rgb(64,64,64); border-radius:2em 2em 0 0; padding:8% 6% 0 6%; }
+	background-color:rgb(48,48,48); border-radius:2em 2em 0 0; padding:8% 6% 0 6%; }
 
 header .inicio h2 { font-size:2.2em; font-family:'Yeseva One',cursive;
 	text-align:center; width:; letter-spacing:.06em; }
